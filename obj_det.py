@@ -82,6 +82,8 @@ def main():
                 if cv2.waitKey(1):
                     break
 
+                #UnboundLocalError: local variable 'bbox' referenced before assignment 에러 발생
+
     cv2.destroyAllWindows()
     zed.close()
 
